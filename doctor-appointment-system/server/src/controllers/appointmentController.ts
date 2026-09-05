@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import Appointment from '../models/appointment'; // 'AppointmentModel' না দিয়ে 'Appointment' ব্যবহার করুন
+import Appointment from '../models/appointment';
 
 export const getAppointments = async (req: Request, res: Response) => {
   try {
